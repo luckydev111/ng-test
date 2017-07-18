@@ -1,0 +1,6 @@
+Brief instruction for running:
+
+npm install -g http-server
+
+bower install
+http-server -o

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>AngularJS Test</title>
+
+    <link href="./bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./app/list/list.css" rel="stylesheet">
+  </head>
+
+  <body ng-app="app">
+    <ul class="menu">
+      <ui-view></ui-view>
+    </ul>
+
+    <script src="./bower_components/angular/angular.min.js"></script>
+    <script src="./bower_components/angular-route/angular-route.js"></script>
+    <script src="./bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="./bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script src="./bower_components/moment/min/moment.min.js"></script>
+
+    <script src="./app/app.js"></script>
+    <script src="./app/list/list.js"></script>
+    <script src="./app/list/list.service.js"></script>
+    <script src="./app/list/list.directive.js"></script>
+  </body>
+</html>

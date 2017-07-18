@@ -1,0 +1,69 @@
+p {
+	margin-bottom: 0;
+}
+.row {
+	margin-bottom: 10px;
+}
+.item-left {
+	display: inline-flex;
+	align-items: center;
+}
+.item-right {
+	display: inline-block;
+}
+.index {
+	margin-right: 10px;
+	color: #c6c6c6;
+}
+.unvoted {
+	margin-right: 10px;
+	color: #c6c6c6;
+	font-family: FontAwesome;
+	font-weight: bold;
+	font-size: small;
+	position: relative;
+	text-align: center;
+}
+.unvoted:before {
+	content: "\f062";
+	position: absolute;
+	top: -20px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+.unvoted:after {
+	content: "\f063";
+	position: absolute;
+	bottom: -20px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+.thumbnail {
+	flex: 1;
+	/*width: 70px;*/
+}
+.title a {
+	font-size: medium;
+	font-weight: normal;
+	color: #0000ff;
+}
+.title a.visited {
+	color: #551a8b;
+}
+.sub-title {
+	color: #888;
+}
+.comments {
+	color: #888;
+	font-weight: bold;
+	padding: 0 1px;
+}
+.post-sharing-button {
+	color: #888;
+	font-weight: bold;
+	padding: 0 1px;
+}
